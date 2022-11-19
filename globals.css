@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/63788e62b8fd1949e1f2991b.63788e63b560be4e71902ff8.YsVVQZk.vcp.png");
+
+@font-face {
+  font-family: "SF Pro Text-Semibold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5ec10d602743ec5deee2eb3b/fonts/sf-pro-text-semibold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "SF Pro Text-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/62e5bd2f729e81c0f2cb0ddb/fonts/sf-pro-text-regular-1.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "SF Pro Text-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/62e5bd2f729e81c0f2cb0ddb/fonts/sf-pro-text-light.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "SF Pro Text-Thin";
+  font-style: normal;
+  font-weight: 100;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c82acab4993280009f533f5/SF-Pro-Text-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "SF Pro Text-LightItalic";
+  font-style: italic;
+  font-weight: 300;
+  src: url("https://anima-uploads.s3.amazonaws.com/590905bc9bd1e9000d9686fa/SF-Pro-Text-LightItalic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "SF Pro Text-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/62fb4d5e3e707686a7b23f30/fonts/sfprotext-medium-1.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "SF Pro Text-ThinItalic";
+  font-style: italic;
+  font-weight: 100;
+  src: url("https://anima-uploads.s3.amazonaws.com/5d35ac7aafd3edd5b08a4f74/SF-Pro-Text-ThinItalic.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "SF Pro Text-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/62e5bd2f729e81c0f2cb0ddb/fonts/sf-pro-text-bold.ttf")
+    format("truetype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.valign-text-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+* {
+  box-sizing: border-box;
+}
